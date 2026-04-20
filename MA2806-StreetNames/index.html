@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Street Names</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* center horizontally */
+  align-items: center;      /* center vertically */
+}
+
+#content {
+  height: calc(100% - 70px);
+}
+
+iframe {
+  width: 600px;
+  height: 600px;
+  border: none;
+}
+
+.container {
+  display: flex;
+  gap: 60px; /* space between iframes */
+}
+
+img {
+  width: 100%;
+}
+</style>
+</head>
+
+<body>
+  <div>
+    <img src="assets/streetNamesTitle.jpeg" alt="websiteTitleImage">
+  </div>
+
+  <div class="container">
+    <iframe src="map.html"></iframe>
+
+    <iframe src="map2.html"></iframe>
+  </div>
+
+</body>
+</html>
