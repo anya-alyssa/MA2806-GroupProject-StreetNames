@@ -13,7 +13,7 @@ html, body {
 
 body {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* everything will layer on top of each other rather than next to each other */
   justify-content: center;  /* center horizontally */
   align-items: center;      /* center vertically */
 }
@@ -31,6 +31,8 @@ iframe {
 .container {
   display: flex;
   gap: 60px; /* space between iframes */
+  width: 100%;
+  justify-content: center;
 }
 
 img {
@@ -45,9 +47,9 @@ img {
   </div>
 
   <div class="container">
-    <iframe src="map.html"></iframe>
+    <iframe src="mapM.html"></iframe>
 
-    <iframe src="map2.html"></iframe>
+    <iframe src="mapF.html"></iframe>
   </div>
 
 </body>
