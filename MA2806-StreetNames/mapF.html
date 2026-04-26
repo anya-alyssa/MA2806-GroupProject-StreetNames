@@ -50,7 +50,24 @@ map.on('click', function (e) {
 const marker = L.marker([51.5, -0.09]).addTo(map)
     .bindPopup('<b>Hello world!</b><br />I am a popup.').openPopup();
 
-    
+/* using https://leafletjs.com/examples/custom-icons/ */
+
+var icon = L.Icon.extend({
+  options: {
+    iconSize: [50, 50],
+    iconAnchor: [25, 50],
+    popupAnchor: [0, -50]
+  }
+});
+
+var streathamIcon = new icon({iconUrl: 'assets/placeholderIcon.png'}),
+    edmontonIcon = new icon({iconUrl: 'assets/placeholderIcon.png'}),
+    newhamIcon = new icon({iconUrl: 'assets/placeholderIcon.png'});
+
+L.marker([51.506606, -0.126686], {icon: streathamIcon}).addTo(map).bindPopup('I am an icon');
+
+
+
 </script>
 
 </body>
