@@ -29,6 +29,10 @@ canvas {
   z-index: 1;
   pointer-events: none;
 }
+
+.male-icon {
+  opacity: 0.8;
+}
 </style>
 </head>
 
@@ -55,16 +59,20 @@ const marker = L.marker([51.5, -0.09]).addTo(map)
 var icon = L.Icon.extend({
   options: {
     iconSize: [40, 50],
-    iconAnchor: [25, 50],
-    popupAnchor: [0, -50]
+    iconAnchor: [20, 50],
+    popupAnchor: [0, -50],
+    className: 'male-icon'
   }
 });
 
-var streathamIcon = new icon({iconUrl: 'assets/streatham.png'}),
-    edmontonIcon = new icon({iconUrl: 'assets/edmonton.png'}),
-    newhamIcon = new icon({iconUrl: 'assets/newham.png'});
+var streathamIcon = new icon({iconUrl: 'assets/streathamM.png'}),
+    edmontonIcon = new icon({iconUrl: 'assets/edmontonM.png'}),
+    newhamIcon = new icon({iconUrl: 'assets/newhamM.png'});
 
-L.marker([51.506606, -0.126686], {icon: streathamIcon}).addTo(map).bindPopup('I am an icon');
+L.marker([51.429611, -0.131149], {icon: streathamIcon}).addTo(map).bindPopup('I am an icon');
+L.marker([51.626329, -0.080681], {icon: edmontonIcon}).addTo(map).bindPopup('I am an icon');
+L.marker([51.520066, 0.059052], {icon: newhamIcon}).addTo(map).bindPopup('I am an icon');
+L.marker([51.43, -0.13], {icon: streathamIcon}).addTo(map).bindPopup("St. Leonard's Church");
 </script>
 
 </body>
