@@ -1,5 +1,6 @@
 [
-    { "lat": 51.49127, "lng": -0.050994, "icon": "streatham", "popup": "Marker from data/Mmarkers.json" },
-    { "lat": 48.8566, "lng": 2.3522, "icon": "streathamBlack", "popup": "Marker in Paris" },
-    { "lat": 40.7128, "lng": -74.0060, "icon": "streatham", "popup": "Marker in New York" }
+    { "lat": 51.4323, "lng": -0.117545, "icon": "streatham", "popup": "Caroline Close <br><br> This is Caroline Close" },
+    { "lat": 51.444114, "lng": -0.127963, "icon": "streatham", "popup": "Tierney Road <br><br> This is a girl's name with Irish decent" },
+    { "lat": 51.446692, "lng": -0.12638, "icon": "streatham", "popup": "Sulina Road <br><br> Slavic?" },
+    { "lat": 51.412404, "lng": -0.143107, "icon": "streatham", "popup": "Lilian Road <br><br> This is Lilian Road" }
 ]

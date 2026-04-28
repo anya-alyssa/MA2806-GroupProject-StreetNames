@@ -69,8 +69,8 @@ var streathamIcon = new icon({iconUrl: 'assets/streathamF.png'}),
     newhamIcon = new icon({iconUrl: 'assets/newhamF.png'});
     newhamIconBlack = new icon({iconUrl: 'assets/newham.png'});
 
-/* STREATHAM MARKERS - ANYA */
-L.marker([51.429611, -0.131149], {icon: streathamIcon}).addTo(map).bindPopup('Streatham');
+/* STREATHAM MARKERS - ANYA 
+L.marker([51.429611, -0.131149], {icon: streathamIcon}).addTo(map).bindPopup('Streatham'); */
 
 /* EDMONTON MARKERS - LEVY */
 L.marker([51.626329, -0.080681], {icon: edmontonIcon}).addTo(map).bindPopup('Edmonton');
@@ -78,7 +78,7 @@ L.marker([51.626329, -0.080681], {icon: edmontonIcon}).addTo(map).bindPopup('Edm
 /* NEWHAM MARKERS - JOY */
 L.marker([51.520066, 0.059052], {icon: newhamIcon}).addTo(map).bindPopup('Newham');
 
-fetch('data/Mmarkers.json')
+fetch('data/Fmarkers.json')
     .then(response => response.json())
     .then(data => {
         data.forEach(location => {
