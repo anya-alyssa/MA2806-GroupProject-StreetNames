@@ -51,8 +51,7 @@ map.on('click', function (e) {
     alert("You clicked the map at " + e.latlng);
 });
 
-const marker = L.marker([51.5, -0.09]).addTo(map)
-    .bindPopup('<b>Hello world!</b><br />I am a popup.').openPopup();
+
 
 /* using https://leafletjs.com/examples/custom-icons/ */
 
@@ -66,13 +65,46 @@ var icon = L.Icon.extend({
 });
 
 var streathamIcon = new icon({iconUrl: 'assets/streathamM.png'}),
+    streathamIconBlack = new icon({iconUrl: 'assets/streatham.png'}),
     edmontonIcon = new icon({iconUrl: 'assets/edmontonM.png'}),
+    edmontonIconBlack = new icon({iconUrl: 'assets/edmonton.png'}),
     newhamIcon = new icon({iconUrl: 'assets/newhamM.png'});
+    newhamIconBlack = new icon({iconUrl: 'assets/newham.png'});
 
-L.marker([51.429611, -0.131149], {icon: streathamIcon}).addTo(map).bindPopup('I am an icon');
-L.marker([51.626329, -0.080681], {icon: edmontonIcon}).addTo(map).bindPopup('I am an icon');
-L.marker([51.520066, 0.059052], {icon: newhamIcon}).addTo(map).bindPopup('I am an icon');
-L.marker([51.43, -0.13], {icon: streathamIcon}).addTo(map).bindPopup("St. Leonard's Church");
+/* STREATHAM MARKERS - ANYA */
+L.marker([51.429611, -0.131149], {icon: streathamIcon}).addTo(map).bindPopup('Streatham');
+
+/* EDMONTON MARKERS - LEVY */
+L.marker([51.626329, -0.080681], {icon: edmontonIcon}).addTo(map).bindPopup('Edmonton');
+
+/* NEWHAM MARKERS - JOY */
+L.marker([51.520066, 0.059052], {icon: newhamIcon}).addTo(map).bindPopup('Newham');
+
+fetch('data/Mmarkers.json')
+    .then(response => response.json())
+    .then(data => {
+        data.forEach(location => {
+          let chosenIcon;
+
+          if (location.icon === "streatham") {
+            chosenIcon = streathamIcon;
+          } else if (location.icon === "edmonton") {
+            chosenIcon = edmontonIcon;
+          } else if (location.icon === "newham") {
+            chosenIcon = newhamIcon;
+          } else if (location.icon === "streathamBlack") {
+            chosenIcon = streathamIconBlack;
+          } else if (location.icon === "edmontonBlack") {
+            chosenIcon = edmontonIconBlack;
+          } else if (location.icon === "newhamBlack") {
+            chosenIcon = newhamIconBlack;
+          }
+
+            L.marker([location.lat, location.lng], {icon: chosenIcon}).addTo(map).bindPopup(location.popup);
+        });
+    })
+    .catch(error => console.error('Error loading markers:', error));
+
 </script>
 
 </body>

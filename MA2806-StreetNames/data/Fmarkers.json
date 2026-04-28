@@ -1,0 +1,5 @@
+[
+    { "lat": 51.49127, "lng": -0.050994, "icon": "streatham", "popup": "Marker from data/Mmarkers.json" },
+    { "lat": 48.8566, "lng": 2.3522, "icon": "streathamBlack", "popup": "Marker in Paris" },
+    { "lat": 40.7128, "lng": -74.0060, "icon": "streatham", "popup": "Marker in New York" }
+]
