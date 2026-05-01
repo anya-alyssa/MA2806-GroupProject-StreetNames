@@ -2,7 +2,7 @@ MA2806 - Data Journalism and Visualisation
 Group Project: Street Names
 
 GitHub Pages:
-GitHub Repo:
+GitHub Repo: https://github.com/anya-alyssa/MA2806-GroupProject-StreetNames
 
 Summary:
 

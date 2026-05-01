@@ -16,49 +16,43 @@ body {
   flex-direction: column; /* everything will layer on top of each other rather than next to each other */
   justify-content: center;  /* center horizontally */
   align-items: center;      /* center vertically */ 
-  background-color: #ffffff;
-}
-
-#content {
-  height: calc(100% - 70px);
+  background-color: #ffffff; /* background will be an image drawn by LEvy but for now it will be white */
 }
 
 iframe {
   width: 600px;
   height: 600px;
-  border: none;
 }
 
 .container {
   display: flex;
   gap: 60px; /* space between iframes */
   width: 100%;
-  justify-content: center;
+  justify-content: center; /* stays central */
 }
 
 img {
   width: 100%;
-  border: 2px solid #2d3034;
+  border: 2px solid #2d3034; /* taken from a colour from the tiotle image */
 }
 
-.navbar-container {
-  display: flex;
-  gap: 10%; /* space between iframes */
+.navbar-container { /* where all the popup icons go into so they all stay in a line */
+  display: flex; 
+  gap: 10%; /* space between iframes as a percentage so as the window gets smaller the size of the gaps will get smaller so that the icons still show up instead of disappearing like it did with px */
   width: 100%;
   justify-content: center;
 }
 
-.infoPopUp, .dataPopUp, .streathamPopUp, .edmontonPopUp, .newhamPopUp, .refPopUp {
+.infoPopUp, .dataPopUp, .streathamPopUp, .edmontonPopUp, .newhamPopUp, .refPopUp { /* each of the pop up circles */
   top:20px;
   left: 550px;
   width: 50px;
   height: 50px;
-  background-color: white;
-  background-size: cover;
+  background-color: white; /* temp background for if levy does png images */
   background-size: 50px;
-  border-radius: 50%;
-  border: 2px solid #384c86;
-  background-repeat: no-repeat; 
+  border-radius: 50%; /* curved edges */
+  border: 2px solid #384c86; /* same as the icons */
+  background-repeat: no-repeat; /* the image in the icon will only be one */
 }
 
 .infoPopUp:hover, .dataPopUp:hover, .streathamPopUp:hover, .edmontonPopUp:hover, .newhamPopUp:hover, .refPopUp:hover {
@@ -66,17 +60,17 @@ img {
   left: 550px;
   width: 50px;
   height: 50px;
-  background-color: #7c3738;
-  background-size: cover;
+  background-color: #7c3738; /* highlights when hovered */
   background-size: 50px;
   border-radius: 50%;
-  border: 4px solid #384c86;
+  border: 3px solid #384c86; /* slightly enlarges the border so it highlights what you've chosen subtley */
   background-repeat: no-repeat; 
 }
 
 
+/* images for icons, some are placeholdersd - levy add each one in place of placehodlers */
 .infoPopUp {
-  background-image: url(assets/placeholderIcon.png);
+  background-image: url(assets/placeholderIcon.png); 
 }
 
 .dataPopUp {
@@ -99,10 +93,11 @@ img {
   background-image: url(assets/placeholderIcon.png); 
 }
 
+/* the pop up boxes for the information cards */
 .content {
   width: 800px;
   height: 700px;
-  margin-top: auto;
+  margin-top: auto; /* appears in the middle of the window */
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
@@ -110,21 +105,21 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 255, 255, 0.9);
-  border: 2px solid #7c3738; 
+  background: rgba(255, 255, 255, 0.9); /* white and very slightly seethrough */
+  border: 2px solid #7c3738; /* same as place icon colours */
   pointer-events: none;
   padding-top: 1%;
   padding-left: 1%;
   padding-right: 1%;
   border-radius: 5%;
-  position: absolute ;
-  visibility: hidden;
-  transform: scale(0.9);
-  transition: 0.1s;
+  position: absolute ; 
+  visibility: hidden; /* wont show unless activated by hovering over specific tab */
+  transform: scale(0.9); /* animation start point */
+  transition: 0.1s; /* time for animation */
 }
 
 h3 {
-  color: #384c86;
+  color: #384c86; 
   font-size: 24px;
 }
 
@@ -136,6 +131,7 @@ ul {
   font-size: 14px;
 }
 
+/* whhen you hover over individual icons they will show their individual content*/
 .genInfo:hover .content {
   visibility: visible;
   transform: scale(1);
@@ -178,10 +174,13 @@ ul {
 
 <body>
   <br><br><br><br><br>
+  <!-- title image  --> 
   <div>
     <img src="assets/streetNamesTitle.jpeg" alt="websiteTitleImage">
   </div>
   <br>
+
+  <!-- navigation bar and the content inside each one  --> 
     <div class="navbar-container">
       <div class="genInfo infoPopUp">
         <div class="content">
@@ -249,6 +248,7 @@ ul {
 
   <br>
 
+  <!--  the maps --> 
     <div class="container">
     <iframe style="border: 5px solid #384c86;" src="mapM.html"></iframe>
 

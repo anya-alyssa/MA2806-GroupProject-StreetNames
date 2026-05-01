@@ -41,17 +41,20 @@ canvas {
 <div id="map"></div>
 
 <script>
+  /* the map and how far out the zoom starts off at */
 const map = L.map('map').setView([51.505, -0.09], 10);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
+
+/* used if we wanted to plot streets for further accuracy to get long and lat for dataset if the website was no good */
 map.on('click', function (e) {
     alert("You clicked the map at " + e.latlng);
 });
 
-/* using https://leafletjs.com/examples/custom-icons/ */
+/* using https://leafletjs.com/examples/custom-icons/ to figure out how to add custom icons */
 
 var icon = L.Icon.extend({
   options: {
@@ -63,7 +66,7 @@ var icon = L.Icon.extend({
 });
 
 var streathamIcon = new icon({iconUrl: 'assets/streathamF.png'}),
-    streathamIconBlack = new icon({iconUrl: 'assets/streatham.png'}),
+    streathamIconBlack = new icon({iconUrl: 'assets/streatham.png'}), /* plain icons for things that may be interesting or similar but not technically a name */
     edmontonIcon = new icon({iconUrl: 'assets/edmontonF.png'}),
     edmontonIconBlack = new icon({iconUrl: 'assets/edmonton.png'}),
     newhamIcon = new icon({iconUrl: 'assets/newhamF.png'});
@@ -78,6 +81,8 @@ L.marker([51.626329, -0.080681], {icon: edmontonIcon}).addTo(map).bindPopup('Edm
 /* NEWHAM MARKERS - JOY 
 L.marker([51.520066, 0.059052], {icon: newhamIcon}).addTo(map).bindPopup('Newham'); */
 
+
+/* from tom lecture, how to pull data from the data file and it will plot the graph automatically for us  */
 fetch('data/Fmarkers.json')
     .then(response => response.json())
     .then(data => {
