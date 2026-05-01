@@ -74,11 +74,11 @@ var streathamIcon = new icon({iconUrl: 'assets/streathamM.png'}),
 /* STREATHAM MARKERS - ANYA 
 L.marker([51.429611, -0.131149], {icon: streathamIcon}).addTo(map).bindPopup('Streatham'); */
 
-/* EDMONTON MARKERS - LEVY */
-L.marker([51.626329, -0.080681], {icon: edmontonIcon}).addTo(map).bindPopup('Edmonton');
+/* EDMONTON MARKERS - LEVY 
+L.marker([51.626329, -0.080681], {icon: edmontonIcon}).addTo(map).bindPopup('Edmonton'); */
 
-/* NEWHAM MARKERS - JOY */
-L.marker([51.520066, 0.059052], {icon: newhamIcon}).addTo(map).bindPopup('Newham');
+/* NEWHAM MARKERS - JOY 
+L.marker([51.520066, 0.059052], {icon: newhamIcon}).addTo(map).bindPopup('Newham'); */
 
 fetch('data/Mmarkers.json')
     .then(response => response.json())

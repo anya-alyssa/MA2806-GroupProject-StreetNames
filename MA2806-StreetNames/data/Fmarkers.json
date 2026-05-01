@@ -7,12 +7,12 @@
     { "lat": 51.414916, "lng": -0.130133, "icon": "streatham", "popup": "Ellison Road <br><br> This can also be found on the female map as it is a unisex name." },
     { "lat": 51.423778, "lng": -0.132523, "icon": "streathamBlack", "popup": "Ellora Road <br><br> This is a female name, but the road is most likely named after the Ellora caves in India." },
     { "lat": 51.430775, "lng": -0.133118, "icon": "streatham", "popup": "Prentis Road <br><br> This road is specifically named after Elizabeth Prentis, who died in 1892. Beriah Drew, Lord of the Manor of Leigham, named it after his wife's maiden name (Brown, 2003, pp. 15)" },
-    { "lat": 51.430775, "lng": -0.133118, "icon": "streatham", "popup": "Angles Road <br><br> This road is specifically named after Jane Angles Fisher, the daughter of Beriah Drew, a local landowner (Gower, 2012, pp. 16)" },
+    { "lat": 51.430534, "lng": -0.125055, "icon": "streatham", "popup": "Angles Road <br><br> This road is specifically named after Jane Angles Fisher, the daughter of Beriah Drew, a local landowner (Gower, 2012, pp. 16)" },
 
 
 
-    { "lat": 51.423778, "lng": -0.132523, "icon": "edmontonBlack", "popup": "ROAD NAME <br><br> DESCRIPTION IF NEEDED" },
+    { "lat": 51.626329, "lng": -0.080681, "icon": "edmontonBlack", "popup": "ROAD NAME <br><br> DESCRIPTION IF NEEDED" },
 
 
-    { "lat": 51.423778, "lng": -0.132523, "icon": "newham", "popup": "ROAD NAME <br><br> DESCRIPTION IF NEEDED" }
+    { "lat": 51.520066, "lng": -0.059052, "icon": "newham", "popup": "ROAD NAME <br><br> DESCRIPTION IF NEEDED" }
 ]
