@@ -16,7 +16,7 @@ body {
   flex-direction: column; /* everything will layer on top of each other rather than next to each other */
   justify-content: center;  /* center horizontally */
   align-items: center;      /* center vertically */ 
-  background-color: #2d3034;
+  background-color: #ffffff;
 }
 
 #content {
@@ -38,19 +38,221 @@ iframe {
 
 img {
   width: 100%;
+  border: 2px solid #2d3034;
 }
+
+.navbar-container {
+  display: flex;
+  gap: 10%; /* space between iframes */
+  width: 100%;
+  justify-content: center;
+}
+
+.infoPopUp, .dataPopUp, .streathamPopUp, .edmontonPopUp, .newhamPopUp, .refPopUp {
+  top:20px;
+  left: 550px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  background-size: cover;
+  background-size: 50px;
+  border-radius: 50%;
+  border: 2px solid #384c86;
+  background-repeat: no-repeat; 
+}
+
+.infoPopUp:hover, .dataPopUp:hover, .streathamPopUp:hover, .edmontonPopUp:hover, .newhamPopUp:hover, .refPopUp:hover {
+  top:20px;
+  left: 550px;
+  width: 50px;
+  height: 50px;
+  background-color: #7c3738;
+  background-size: cover;
+  background-size: 50px;
+  border-radius: 50%;
+  border: 4px solid #384c86;
+  background-repeat: no-repeat; 
+}
+
+
+.infoPopUp {
+  background-image: url(assets/placeholderIcon.png);
+}
+
+.dataPopUp {
+  background-image: url(assets/placeholderIcon.png);
+}
+
+.streathamPopUp {
+  background-image: url(assets/streatham.png); 
+}
+
+.edmontonPopUp {
+  background-image: url(assets/edmonton.png);
+}
+
+.newhamPopUp {
+  background-image: url(assets/newham.png);
+}
+
+.refPopUp {
+  background-image: url(assets/placeholderIcon.png); 
+}
+
+.content {
+  width: 800px;
+  height: 700px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #7c3738; 
+  pointer-events: none;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 5%;
+  position: absolute ;
+  visibility: hidden;
+  transform: scale(0.9);
+  transition: 0.1s;
+}
+
+h3 {
+  color: #384c86;
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+ul {
+  font-size: 14px;
+}
+
+.genInfo:hover .content {
+  visibility: visible;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.dataInfo:hover .content {
+  visibility: visible;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.streatham:hover .content {
+  visibility: visible;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.edmonton:hover .content {
+  visibility: visible;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.newham:hover .content {
+  visibility: visible;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.ref:hover .content {
+  visibility: visible;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+
+}
+
 </style>
 </head>
 
 <body>
+  <br><br><br><br><br>
   <div>
     <img src="assets/streetNamesTitle.jpeg" alt="websiteTitleImage">
   </div>
+  <br>
+    <div class="navbar-container">
+      <div class="genInfo infoPopUp">
+        <div class="content">
+          <h3> What is a Street Name? </h3>
+          <p>A street name is...</p>
+        </div>
+      </div>
 
-  <div class="container">
-    <iframe src="mapM.html"></iframe>
+      <div class="dataInfo dataPopUp">
+        <div class="content">
+          <h3> Data Collection </h3>
+          <p>Our data was collected by...</p>
+        </div>
+      </div>
 
-    <iframe src="mapF.html"></iframe>
+      <div class="streatham streathamPopUp">
+        <div class="content">
+          <h3> Streatham </h3>
+          <p>I noticed...</p>
+        </div>
+      </div>
+
+      <div class="edmonton edmontonPopUp">
+        <div class="content">
+          <h3>Edmonton</h3>
+          <p>The data shows...</p>
+        </div>
+      </div>
+
+      <div class="newham newhamPopUp">
+        <div class="content">
+          <h3>Newham</h3>
+          <p>What I found was...</p>
+        </div>
+      </div>
+
+      <div class="ref refPopUp">
+        <div class="content">
+          <h3>References</h3>
+          <p>Here is a list of references that were used in this website:</p>
+          <ul>
+            <li>Gower G. (2004) Streatham Heritage Trail: Streatham Hill Triangle. The Streatham Society. Local History Publications. Available at: https://www.streathamsociety.org.uk/pdf/streatham-heritage-trail-streatham-hill-triangle.pdf</li>
+            <li>Bloice B. (2000) Streatham Heritage Trail: Streatham Village. The Streatham Society. Local History Publications. Available at: https://www.streathamsociety.org.uk/pdf/streatham-heritage-trail-streatham-park.pdf</li>
+            <li>Brown J.W. (2003) Streatham Heritage Trail: Streatham Park. The Streatham Society. Local History Publications. Available at: https://www.streathamsociety.org.uk/pdf/streatham-heritage-trail-streatham-village.pdf</li>
+            <li>Brown J.W. (2001) Streatham Heritage Trail: Greyhound Lane. The Streatham Society. Local History Publications. Available at: https://www.streathamsociety.org.uk/pdf/streatham-heritage-trail-greyhound-lane.pdf</li>
+            <li>Harris J. (2001) Streatham Heritage Trail: Two Victorian Stream Hill Estates, Roupell Park & Leigham Court. The Streatham Society. Local History Publications. Available at: https://www.streathamsociety.org.uk/pdf/streatham-heritage-trail-roupell-park.pdf</li>
+            <li>Gower G. (2012) Streatham Heritage Trail: Streatham’s Highways & Byways. The Streatham Society. Local History Publications. Available at: https://www.streathamsociety.org.uk/pdf/streatham-heritage-trail-streatham.pdf</li>
+            <li>Sheppard F.H.W. (1956). ‘Tulse Hill and Brockwell Park’, in Survey of London: Volume 26, Lambeth: Southern Area. London County Council. <br>Available at: https://www.british-history.ac.uk/survey-london/vol26/pp155-166#fnn1</li>
+            <li>The Streatham Society. The Black People of Streatham. The Streatham Society. Available at: https://www.streathamsociety.org.uk/people/the-black-people-of-streatham#:~:text=Francis%20Barber%20was%20born%20a,Teesdale%2C%20North%20Riding%20of%20Yorkshire.</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+
+  <br>
+
+    <div class="container">
+    <iframe style="border: 5px solid #384c86;" src="mapM.html"></iframe>
+
+    <iframe style="border: 5px solid #7c3738;"src="mapF.html"></iframe>
   </div>
 
 </body>
