@@ -7,8 +7,8 @@ GitHub Repo: https://github.com/anya-alyssa/MA2806-GroupProject-StreetNames
 Summary: - joy if you can make this sound better please feel free
     This project explores gender bias in street naming across three areas of London: Streatham, Edmonton, and Newham. By collecting and categorising street names in these areas and their gender biases and associations, we have visualised how something as simple as the names of the streets we travel reflect broader social inequalities. Through the use of contrasting plotted maps, the project highlights disparities between male and female representation, encouraging reflection on how power and patriarchy are embedded in everyday geography.
 
-Description of dataset:
-    The dataset we used was derived from the Ordnance Survery 'Open Names' dataset, found on the gov.uk website. This dataset is a "comprehensive dataset of place names, road numbers and postcodes for Great Britain" (Ordnance Survey, 2025).
+Description of dataset - Anya:
+    The dataset we used was derived from the Ordnance Survey 'Open Names' dataset, found on the gov.uk website. This dataset is a "comprehensive dataset of place names, road numbers and postcodes for Great Britain" (Ordnance Survey, 2025).
         Authors: Ordnance Survey
         Source: Ordnance Survey Open Names on data.gov.uk
         Publication date: 16 April 2025
