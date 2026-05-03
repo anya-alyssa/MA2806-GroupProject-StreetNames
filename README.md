@@ -14,7 +14,15 @@ Description of dataset - Anya:
         Publication date: 16 April 2025
         Format: CSV files
     
-    From this dataset, subsets were created for our three chosen areas of Streatham (Anya), Edmonton (Levy), and Newham (Joy). This was done using the terminal commands, that were taught by Tom Keene, to filter our specific location's street names, providing us with much smaller, more manageable datasets. We then manually sorted through and categorised our individual datasets into either: male, female, unisex, or unnamed. These were then manually plotted into the map on our website by finding the coordinates of each street and adding it to our dataset.
+    From this dataset, subsets were created for our three chosen areas of Streatham (Anya), Edmonton (Levy), and Newham (Joy). This was done using the terminal commands*, that were taught by Tom Keene, to filter our specific location's street names, providing us with much smaller, more manageable datasets. We then manually sorted through and categorised our individual datasets into either: male, female, unisex, or unnamed. These were then manually plotted into the map on our website by finding the coordinates of each street and adding it to our dataset.
+
+*terminal commands used:
+cd '/Users/anya/Desktop/opname_csv_gb-2/data’ - (changes directory to data folder)
+cat *.csv (combine all the data files into one long string of data)
+cat *.csv | grep "SEARCHED NAME" - (searches for inputted name in all the data)
+cat *.csv | grep "SEARCHEDNAME" > ~/Desktop/NAMEOFFILE.csv (puts it all into one file)
+csvcut -c COLUMNS WANTED ~/Desktop/FILENAME.csv | csvgrep -c 2 -r SEARCHEDNAME| csvlook - (prints filtered columns to you in terminal)
+csvcut -c COLUMNS WANTED ~/Desktop/FILENAME.csv | csvgrep -c 2 -r SEARCHEDNAME > ~/Desktop/NAMEOFFILE.csv - (puts filtered data all into one file)
 
 Overview of design/technical/other challenges with descrtiption of how the project was collectively developed:
     Design: 
@@ -34,8 +42,17 @@ Overview of design/technical/other challenges with descrtiption of how the proje
 Group Description
     Group Members and Roles
     - Anya - Coding and project management
+        - Coded the project
+        - Collected datasets
+        - Sorted, researched, and added data for 'Streatham'
+        - Wrote up Streatham findings
+
     - Levy - Visual design
+        -
+
     - Joy - Copy Writer
+        -
+
 
     We worked and communicated via a combination of in-person meetings (to check in on progress, make decisions and discuss issues) and a gorup chat made on Instagram (for regular updates, questions and general communication on the project). The workload was distributed as: coding would be handled primarily by Anya, write ups would be done by Joy, visual design and artwork would be done by Levy, and the data collection and plotting woul be shared across all team members, each focusing on our dedicated area. If conflict were to arise, minor problems would be resolved through a discussion, but any major concerns are to be taken to Tom Keene for advice.
 
