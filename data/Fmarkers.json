@@ -11,7 +11,20 @@
 
 
 
-    { "lat": 51.626329, "lng": -0.080681, "icon": "edmontonBlack", "popup": "ROAD NAME <br><br> DESCRIPTION IF NEEDED" },
+    { "lat": 51.635746, "lng": -0.064037, "icon": "edmonton", "popup": "Mina Terrace" },
+    { "lat": 51.631894, "lng": -0.048726, "icon": "edmonton", "popup": "St Mary's Road" },
+    { "lat": 51.634942, "lng": -0.042018, "icon": "edmonton", "popup": "Shirley Grove" },
+    { "lat": 51.634784, "lng": -0.05102, "icon": "edmonton", "popup": "Elizabeth Ride<br><br>Queen Elizabeth" },
+    { "lat": 51.634625, "lng": -0.069148, "icon": "edmonton", "popup": "Winifred Terrace<br><br>Winifred is a feminine name derived from a Welsh name Gwenfrewi, possibly influenced by an Old English name Winfred" },
+    { "lat": 51.630301, "lng": -0.053932, "icon": "edmonton", "popup": "Rosemary Avenue<br><br>While it is a female name, it was also a plant" },
+    { "lat": 51.637758, "lng": -0.047675, "icon": "edmonton", "popup": "Beatrice Road<br><br>While it is a female name, it was also an Italian form of Beatrix. " },
+    { "lat": 51.612263, "lng": -0.063549, "icon": "edmonton", "popup": "Hester Road<br><br> Hester is both a female given name and a surname. As a given name Hester is a variant of Esther." },
+    { "lat": 51.612141, "lng": -0.067061, "icon": "edmonton", "popup": "Joyce Avenue" },
+    { "lat": 51.616878, "lng": -0.058454, "icon": "edmonton", "popup": "Rose Mews<br><br>female name or plant" },
+    { "lat": 51.634886, "lng": -0.044748, "icon": "edmonton", "popup": "Nightingale Road<br><br>surname; associated with Florence Nightingale" },
+    { "lat": 51.617575, "lng": -0.047917, "icon": "edmontonBlack", "popup": "Stacey Avenue<br><br>This can also be found on the female map as it is a unisex name." },
+    { "lat": 51.632089, "lng": -0.056219, "icon": "edmontonBlack", "popup": "Denny Road<br><br>This can also be found on the female map as it is a unisex name." },
+
 
 
     { "lat": 51.520066, "lng": -0.059052, "icon": "newham", "popup": "ROAD NAME <br><br> DESCRIPTION IF NEEDED" }
