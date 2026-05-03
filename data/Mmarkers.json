@@ -123,11 +123,11 @@
     { "lat": 51.611296, "lng": -0.039245, "icon": "edmonton", "popup": "Hawley Road" },
     { "lat": 51.634973, "lng": -0.040882, "icon": "edmonton", "popup": "Winton Close" },
     { "lat": 51.615249, "lng": -0.055333, "icon": "edmonton", "popup": "Ellanby Crescent" },
-    { "lat": 51.622794, "lng": -0.05809, "icon": "edmontonBlack", "popup": "Clarke Mews<br><br>It's not necessary a male name" },
-    { "lat": 51.632089, "lng": -0.056219, "icon": "edmontonBlack", "popup": "Denny Road<br><br>It's not necessary a male name" },
-    { "lat": 51.626113, "lng": -0.033512, "icon": "edmontonBlack", "popup": "Lee Park Way<br><br>It's not necessary a male name" },
-    { "lat": 51.631879, "lng": -0.079186, "icon": "edmontonBlack", "popup": "Ainsley Close<br><br>It's not necessary a male name" },
-    { "lat": 51.617575, "lng": -0.047917, "icon": "edmontonBlack", "popup": "Stacey Avenue<br><br>It's not necessary a male name" },
+    { "lat": 51.622794, "lng": -0.05809, "icon": "edmontonBlack", "popup": "Clarke Mews<br><br>This can also be found on the female map as it is a unisex name" },
+    { "lat": 51.632089, "lng": -0.056219, "icon": "edmontonBlack", "popup": "Denny Road<br><br>This can also be found on the female map as it is a unisex name" },
+    { "lat": 51.626113, "lng": -0.033512, "icon": "edmontonBlack", "popup": "Lee Park Way<br><br>This can also be found on the female map as it is a unisex name" },
+    { "lat": 51.631879, "lng": -0.079186, "icon": "edmontonBlack", "popup": "Ainsley Close<br><br>This can also be found on the female map as it is a unisex name" },
+    { "lat": 51.617575, "lng": -0.047917, "icon": "edmontonBlack", "popup": "Stacey Avenue<br><br>This can also be found on the female map as it is a unisex name" },
 
 
     
