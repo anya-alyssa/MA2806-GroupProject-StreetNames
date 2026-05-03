@@ -75,7 +75,6 @@
 
 
 
-    { "lat": 51.572429, "lng": -0.081367, "icon": "edmonton", "popup": "Anthony Way<br><br> This road was an English chorister and classical singer, who rose to fame after appearing as a chorister in a BBC TV series."},
     { "lat": 51.616968, "lng": -0.049707, "icon": "edmonton", "popup": "Becket Road<br><br> A historical drama film about the conflict between King Henry II and his friend-turned-enemy Thomas Becket."},
     { "lat": 51.618393, "lng": -0.052275, "icon": "edmonton", "popup": "Jeremy's Green" },
     { "lat": 51.601052, "lng": -0.096274, "icon": "edmonton", "popup": "Eldon Road" },
@@ -124,6 +123,11 @@
     { "lat": 51.611296, "lng": -0.039245, "icon": "edmonton", "popup": "Hawley Road" },
     { "lat": 51.634973, "lng": -0.040882, "icon": "edmonton", "popup": "Winton Close" },
     { "lat": 51.615249, "lng": -0.055333, "icon": "edmonton", "popup": "Ellanby Crescent" },
+    { "lat": 51.622794, "lng": -0.05809, "icon": "edmontonBlack", "popup": "Clarke Mews<br><br>It's not necessary a male name" },
+    { "lat": 51.632089, "lng": -0.056219, "icon": "edmontonBlack", "popup": "Denny Road<br><br>It's not necessary a male name" },
+    { "lat": 51.626113, "lng": -0.033512, "icon": "edmontonBlack", "popup": "Lee Park Way<br><br>It's not necessary a male name" },
+    { "lat": 51.631879, "lng": -0.079186, "icon": "edmontonBlack", "popup": "Ainsley Close<br><br>It's not necessary a male name" },
+    { "lat": 51.617575, "lng": -0.047917, "icon": "edmontonBlack", "popup": "Stacey Avenue<br><br>It's not necessary a male name" },
 
 
     
