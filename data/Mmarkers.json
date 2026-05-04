@@ -159,6 +159,28 @@
     { "lat": 51.51980541407488, "lng": 0.015298982324797462, "icon": "newhamBlack", "popup": "Cliff Walk<br><br> Named for an elevated or edge-like pathway."},
     { "lat": 51.53642308679466, "lng": -0.005363987511555368, "icon": "newham", "popup": "Bridgewater Road<br><br> Named after the Duke of Bridgewater."},
     { "lat": 51.54152011040561, "lng": -0.00828381819469759, "icon": "newham", "popup": "Carpenters Road<br><br> Named after the carpentry trade."},
+    { "lat": 51.5510583, "lng": 0.0184961, "icon": "newham", "popup": "Odessa Road<br><br> Named after the port city Odessa."},
+    { "lat": 51.512262, "lng": 0.013047, "icon": "newham", "popup": "St Luke's Square<br><br> Named after St Luke."},
+    { "lat": 51.5245299, "lng": 0.0095962, "icon": "newham", "popup": "Alden Avenue<br><br> Named after a surname, Alden."},
+    { "lat": 51.5332243, "lng": 0.0100004, "icon": "newham", "popup": "Chaplin Road<br><br> Possibly named after Charlie Chaplin"},
+    { "lat": 51.5507468, "lng": 0.0070461, "icon": "newham", "popup": "Janson Close<br><br> Named after a surname, Janson."},
+    { "lat": 51.5502675, "lng": -0.0107688, "icon": "newham", "popup": "Painters Lane<br><br> Named after painters or the trade."},
+    { "lat": 51.5402491, "lng": 0.0102662, "icon": "newham", "popup": "Hay Close<br><br> Refers to hay fields."},
+    { "lat": 51.5363725, "lng": -0.0019095, "icon": "newham", "popup": "Kerrison Road<br><br> Named after a surname, Kerrison."},
+    { "lat": 51.5217563, "lng": 0.011194, "icon": "newham", "popup": "Beaconsfield Road<br><br> Named after the Earl of Beaconsfield."},
+    { "lat": 51.5334211, "lng": 0.0068369, "icon": "newham", "popup": "Worthing Close<br><br> Named after the town of Worthing."},
+    { "lat": 51.550033, "lng": 0.0428172, "icon": "newham", "popup": "Clarence Road<br><br> Named after the Duke of Clarence."},
+    { "lat": 51.5174461, "lng": 0.0043025, "icon": "newham", "popup": "Ives Road<br><br> Named after a surname, Ives."},
+    { "lat": 51.545238, "lng": 0.012158, "icon": "newham", "popup": "Carnarvon Road<br><br> Named after the Earl of Carnarvon."},
+    { "lat": 51.5344567, "lng": 0.0126795, "icon": "newhamBlack", "popup": "Plaistow Grove<br><br> 'Plaistow' means gathering place."},
+    { "lat": 51.5173916, "lng": 0.0097135, "icon": "newhamBlack", "popup": "Malmesbury Road<br><br> Named after the historic town of Malmesbury."},
+    { "lat": 51.527204, "lng": 0.0058186, "icon": "newham", "popup": "Teasel Way<br><br> Named after the teasel plant used in textiles."},
+    { "lat": 51.5457493, "lng": 0.0175866, "icon": "newham", "popup": "Atherton Mews<br><br> Named after a surname, Atherton’s stables."},
+    { "lat": 51.5549263, "lng": 0.0602781, "icon": "newham", "popup": "Romford Road<br><br> Historic road leading to Romford."},
+    { "lat": 51.5173982, "lng": 0.003643, "icon": "newham", "popup": "Bidder Street<br><br> Named after engineer George Parker Bidder."},
+    { "lat": 51.5328908, "lng": 0.0647975, "icon": "newham", "popup": "Nelson Street<br><br> Named after Admiral Horatio Nelson."},
+    { "lat": 51.5423565, "lng": -0.0100419, "icon": "newham", "popup": "Turing Street<br><br> Named after Alan Turing famous Gay mathematician"},
+
 
     { "lat": 51.520066, "lng": -0.059052, "icon": "newhamBlack", "popup": "ROAD NAME <br><br> DESCRIPTION IF NEEDED" }
 ]
