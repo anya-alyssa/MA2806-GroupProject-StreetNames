@@ -133,5 +133,15 @@
 
 
     
+    
+    { "lat": 51.53891516676904, "lng": 0.00481332671108213, "icon": "newham", "popup": "West Ham Lane<br><br> From Old English 'ham' meaning settlement; western settlement relative to East Ham."},
+    { "lat": 51.533576, "lng": 0.052700300, "icon": "newham", "popup": "St Johns Road<br><br> Refers to meadowland where mills once stood."},
+    { "lat": 51.513073, "lng": 0.011156, "icon": "newham", "popup": "Hallsville Road<br><br> Named after the Hallsville area; likely derived from a local hall or estate."},
+    { "lat": 51.512349, "lng": 0.010039, "icon": "newham", "popup": "Canning Town Station Road<br><br> Named after Charles John Canning, 1st Earl Canning."},
+    { "lat": 51.545257738874426, "lng": 0.017293924292117277, "icon": "newham", "popup": "Radlett Close<br><br> Radlett Close"},
+    { "lat": 51.549451513225485,"lng": -0.013724408642067634, "icon": "newham", "popup": "Keirin Road<br><br> Named after the Japanese cycling sport 'Keirin'."},
+    { "lat": 51.54889702147235, "lng": 0.013699960723650505, "icon": "newham", "popup": "Albert Square<br><br> Named after Prince Albert."},
+    { "lat": 51.55181198447972, "lng": 0.004880605631563429, "icon": "newhamBlack", "popup": "Ashlin Road<br><br> Ashlin Road"},
+    { "lat": 51.54847793239407, "lng": -0.006957479027475518, "icon": "newhamBlack", "popup": "Fortunes Walk<br><br> Likely symbolic name suggesting prosperity."},
     { "lat": 51.520066, "lng": -0.059052, "icon": "newhamBlack", "popup": "ROAD NAME <br><br> DESCRIPTION IF NEEDED" }
 ]
