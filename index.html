@@ -18,7 +18,7 @@ body {
   justify-content: center;  /* center horizontally */
   align-items: center;      /* center vertically */ 
   background-color: #ffffff; /* background will be an image drawn by LEvy but for now it will be white */
-  background-image: url('assets/finalBG.jpg'); /* background made by LEVY */
+  background-image: url('assets/editedfinalBG.jpg'); /* background made by LEVY */
 }
 
 iframe {
@@ -225,8 +225,8 @@ ul {
         <div class="content">
           <h3 style="margin-bottom: -10px;"> Data Collection </h3>
           <h3 style="font-size: 22px; color: #2d3034; margin-bottom: -10px;"> How the Data was Collected</h3>
-          <p> The dataset used in our project was sourced from the Ordnance Survey OS Open Names dataset, downloaded via data.gov.uk. This dataset is a comprehensive, publicly available database containing street names, place names, and postcodes across Great Britain. It includes accurate and up-to-date geographic information, with over 870,000 named roads and associated coordinate data. The data was downloaded in CSV format, which allowed it to be processed using command-line tools. To make the dataset manageable and relevant to the project, it was filtered to include our three selected areas: Streatham, Edmonton, and Newham. This filtering process involved using terminal commands (e.g., grep, csvcut) to search for specific location names and extract only the relevant rows from the dataset. After filtering, the cleaned datasets were imported into Google Sheets, where further organisation manual based on gender took place. At this stage, each street name was examined individually and categorised (e.g., male, female, unisex, or unnamed). After we researched the origin or meaning of each name manually as well. Additionally google maps was used to verify street locations because we wanted accuracy on our selected areas. 
-            <br><Br> The commands used: <br>
+          <p style="margin-bottom: -10px;"> The dataset used in our project was sourced from the Ordnance Survey OS Open Names dataset, downloaded via data.gov.uk. This dataset is a comprehensive, publicly available database containing street names, place names, and postcodes across Great Britain. It includes accurate and up-to-date geographic information, with over 870,000 named roads and associated coordinate data. The data was downloaded in CSV format, which allowed it to be processed using command-line tools. To make the dataset manageable and relevant to the project, it was filtered to include our three selected areas: Streatham, Edmonton, and Newham. This filtering process involved using terminal commands (e.g., grep, csvcut) to search for specific location names and extract only the relevant rows from the dataset. After filtering, the cleaned datasets were imported into Google Sheets, where further organisation manual based on gender took place. At this stage, each street name was examined individually and categorised (e.g., male, female, unisex, or unnamed). After we researched the origin or meaning of each name manually as well. Additionally google maps was used to verify street locations because we wanted accuracy on our selected areas. 
+            <br> The commands used: <br>
             cd '/Users/anya/Desktop/opname_csv_gb-2/data’ - (changes directory to data folder) <br>
 cat *.csv (combine all the data files into one long string of data)<br>
 cat *.csv | grep "SEARCHED NAME" - (searches for inputted name in all the data)<br>
