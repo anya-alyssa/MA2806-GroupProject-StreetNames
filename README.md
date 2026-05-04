@@ -4,8 +4,12 @@ Group Project: Street Names
 GitHub Pages: https://anya-alyssa.github.io/MA2806-GroupProject-StreetNames/
 GitHub Repo: https://github.com/anya-alyssa/MA2806-GroupProject-StreetNames
 
-Summary: - joy if you can make this sound better please feel free
-    This project explores gender bias in street naming across three areas of London: Streatham, Edmonton, and Newham. By collecting and categorising street names in these areas and their gender biases and associations, we have visualised how something as simple as the names of the streets we travel reflect broader social inequalities. Through the use of contrasting plotted maps, the project highlights disparities between male and female representation, encouraging reflection on how power and patriarchy are embedded in everyday geography.
+Summary: This project explores gender in street naming across three areas in London: Streatham (South London), Edmonton (North London), and Newham (North London) by examining how streets are named, and how the choices reveal historical and cultural power structures. By systematically collecting and categorising street names according to gender and its associations our project exposes patterns of omission. Names linked to aristocracy or landowners allows us to identify how gendered recognition is operated differently across urban spaces. 
+The visualisation is integral to our project’s impacts. Through the creation of detailed plotted maps that are interactive that translate raw data into an engaging experience. Using geographic coordinates each street name that are named is mapped onto our digital maps, allowing users to explore he patterns of gender representation. The zoom functionality enables both macro and micro perspectives: users can zoom out to understand broader spatial trends across Streatham, Edmonton, and Newham, as well as the geographical context or to zoom into individual streets and their specific naming history. 
+Each plotted point of named street on the map is interactive. The icon was specifically designed by Levy using Canvas and it when hovered over shows information on the selected street. The street icons are colour coded red for female associated names, blue for male associated, so that users can identify easily. The colour system visually emphasises the disparities in representation.
+Focusing on everyday geography our project draws attention to how mundane objects or details also suffer from systematic inequalities. Street names are markers that most people never pay attention to, but they are cultural artefacts and the absence of women in the cities historical narrative is worrisome. 
+Ultimately the projects are about the relationship between the environment and power. It meant to make viewers consider the space around them and question whose history is being overlooked. To open a discussion on urban landscapes and fostering community and challenging patriarchal structure. 
+
 
 Description of dataset - Anya:
     The dataset we used was derived from the Ordnance Survey 'Open Names' dataset, found on the gov.uk website. This dataset is a "comprehensive dataset of place names, road numbers and postcodes for Great Britain" (Ordnance Survey, 2025).
@@ -55,7 +59,15 @@ Group Description
         - Wrote up Edmonton findings
 
     - Joy - Copy Writer
-        -
+    
+        - Researched and added data for 'Newham'
+        -Wrote up Newham and added a few details for Edmonton
+        -Crafted written content across the project
+        -Translates research into more accessible for viewer
+        -Develops tone 
+        -Writes copy for the readme file
+        -Illustrate how racism is all over the UK
+
 
 
     We worked and communicated via a combination of in-person meetings (to check in on progress, make decisions and discuss issues) and a gorup chat made on Instagram (for regular updates, questions and general communication on the project). The workload was distributed as: coding would be handled primarily by Anya, write ups would be done by Joy, visual design and artwork would be done by Levy, and the data collection and plotting woul be shared across all team members, each focusing on our dedicated area. If conflict were to arise, minor problems would be resolved through a discussion, but any major concerns are to be taken to Tom Keene for advice.
