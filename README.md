@@ -48,7 +48,11 @@ Group Description
         - Wrote up Streatham findings
 
     - Levy - Visual design
-        -
+        - Design the elements pop-ups (street name title,data collection pop-ups street name pop-ups, areas pop-ups, reference pop-ups)
+        - Design Background
+        - Design each area icons 
+        - Sorted, researched, and added data for 'Edmonton'
+        - Wrote up Edmonton findings
 
     - Joy - Copy Writer
         -
