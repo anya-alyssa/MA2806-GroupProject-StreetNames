@@ -46,7 +46,7 @@ Overview of design/technical/other challenges with descrtiption of how the proje
 Group Description
     Group Members and Roles
     - Anya - Coding and project management
-        - Coded the project
+        - Coded the project (with help from Tom Keene's lecture notes and the leaflet.js resources)
         - Collected datasets
         - Sorted, researched, and added data for 'Streatham'
         - Wrote up Streatham findings
