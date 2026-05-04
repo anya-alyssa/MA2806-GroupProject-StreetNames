@@ -47,9 +47,14 @@ Group Description
     Group Members and Roles
     - Anya - Coding and project management
         - Coded the project (with help from Tom Keene's lecture notes and the leaflet.js resources)
-        - Collected datasets
+        - Collected datasets using terminal commands
         - Sorted, researched, and added data for 'Streatham'
-        - Wrote up Streatham findings
+        - Wrote up all written content for Streatham findings
+        - Made pie chart for Streatham
+        - Ensured visual consistencey throughout the project
+        - Formatted and cleaned up information cards 
+        - Helped write data collection section
+        - README file (except Summary section and othe members group description)
 
     - Levy - Visual design
         - Design the elements pop-ups (street name title,data collection pop-ups street name pop-ups, areas pop-ups, reference pop-ups)
@@ -73,11 +78,11 @@ Group Description
     We worked and communicated via a combination of in-person meetings (to check in on progress, make decisions and discuss issues) and a gorup chat made on Instagram (for regular updates, questions and general communication on the project). The workload was distributed as: coding would be handled primarily by Anya, write ups would be done by Joy, visual design and artwork would be done by Levy, and the data collection and plotting woul be shared across all team members, each focusing on our dedicated area. If conflict were to arise, minor problems would be resolved through a discussion, but any major concerns are to be taken to Tom Keene for advice.
 
 
- including a summary of everyone’s role. You should outline your approach to group organisation, including communication methods (e.g., email, WhatsApp), workload distribution, and accountability measures. Describe agreements for conflict resolution and when to escalate concerns, and approach to consensus-building (e.g. voting, discussion). Highlight values guiding an inclusive approach to group work. And include any supporting information which provide a sense of the production process – through communication to development.   
-
  References: 
     Ordnance Survey (2025) OS Open Names. data.gov.uk. Ordnance Survey. Available at: https://www.data.gov.uk/dataset/4949c88e-89b7-49b5-a0cf-8a3a2a4dac9d/os-open-names1
     Newham Named streets:
+
+
  https://www.newhamrecorder.co.uk/lifestyle/21431189.stories-behind-newhams-road-names/
     A-Z names: 
 https://streets.openalfa.co.uk/london-borough-of-tower-hamlets

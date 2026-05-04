@@ -179,8 +179,5 @@
     { "lat": 51.5549263, "lng": 0.0602781, "icon": "newham", "popup": "Romford Road<br><br> Historic road leading to Romford."},
     { "lat": 51.5173982, "lng": 0.003643, "icon": "newham", "popup": "Bidder Street<br><br> Named after engineer George Parker Bidder."},
     { "lat": 51.5328908, "lng": 0.0647975, "icon": "newham", "popup": "Nelson Street<br><br> Named after Admiral Horatio Nelson."},
-    { "lat": 51.5423565, "lng": -0.0100419, "icon": "newham", "popup": "Turing Street<br><br> Named after Alan Turing famous Gay mathematician"},
-
-
-    { "lat": 51.520066, "lng": -0.059052, "icon": "newhamBlack", "popup": "ROAD NAME <br><br> DESCRIPTION IF NEEDED" }
+    { "lat": 51.5423565, "lng": -0.0100419, "icon": "newham", "popup": "Turing Street<br><br> Named after Alan Turing famous Gay mathematician"}
 ]
