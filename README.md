@@ -77,6 +77,8 @@ Group Description
 
  References: 
     Ordnance Survey (2025) OS Open Names. data.gov.uk. Ordnance Survey. Available at: https://www.data.gov.uk/dataset/4949c88e-89b7-49b5-a0cf-8a3a2a4dac9d/os-open-names1
+    Newham Named streets:
+ https://www.newhamrecorder.co.uk/lifestyle/21431189.stories-behind-newhams-road-names/
     A-Z names: 
 https://streets.openalfa.co.uk/london-borough-of-tower-hamlets
 By Postcode:
