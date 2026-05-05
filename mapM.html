@@ -47,9 +47,10 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
-map.on('click', function (e) {
+/* used if we wanted to plot streets for further accuracy to get long and lat for dataset if the website was no good 
+  map.on('click', function (e) {
     alert("You clicked the map at " + e.latlng);
-});
+});*/
 
 
 
