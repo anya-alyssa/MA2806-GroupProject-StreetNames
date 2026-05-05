@@ -53,7 +53,7 @@ Group Description
         - Made pie chart for Streatham
         - Ensured visual consistencey throughout the project
         - Formatted and cleaned up information cards 
-        - Helped write data collection section
+        - Helped write data collection section and added key in introduction section
         - README file (except Summary section and othe members group description)
 
     - Levy - Visual design
@@ -64,7 +64,6 @@ Group Description
         - Wrote up Edmonton findings
 
     - Joy - Copy Writer
-    
         - Researched and added data for 'Newham'
         -Wrote up Newham and added a few details for Edmonton
         -Crafted written content across the project
@@ -73,9 +72,7 @@ Group Description
         -Writes copy for the readme file
         -Illustrate how racism is all over the UK
 
-
-
-    We worked and communicated via a combination of in-person meetings (to check in on progress, make decisions and discuss issues) and a gorup chat made on Instagram (for regular updates, questions and general communication on the project). The workload was distributed as: coding would be handled primarily by Anya, write ups would be done by Joy, visual design and artwork would be done by Levy, and the data collection and plotting woul be shared across all team members, each focusing on our dedicated area. If conflict were to arise, minor problems would be resolved through a discussion, but any major concerns are to be taken to Tom Keene for advice.
+    We worked and communicated via a combination of in-person meetings (to check in on progress, make decisions and discuss issues) and a gorup chat made on Instagram (for regular updates, questions and general communication on the project). The workload was distributed as: coding would be handled primarily by Anya, write ups would be done by Joy, visual design and artwork would be done by Levy, and the data collection and plotting would be shared across all team members, each focusing on our dedicated area (though we were not confined to our roles and helped each other when needed). If conflict were to arise, minor problems would be resolved through a discussion, but any major concerns are to be taken to Tom Keene for advice.
 
 
  References: 
